@@ -10,7 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var upVote: UILabel!
+    @IBOutlet weak var downVote: UILabel!
+    @IBOutlet weak var winner: UILabel!
+    
+    override func viewWillAppear(_ animated: Bool) {
+    
+    upVote.text = String((parent as! tabBarViewController).yesVote)
+        downVote.text = String((parent as! tabBarViewController).noVote)
+   
+    
+    if (parent as!tabBarViewController).yesVote >
+    (parent as! tabBarViewController).noVote
+    {
+    winner.text = "Yes!"
+    }else {
+    winner.text = "No!"
+    }
+    
+        func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
@@ -18,3 +36,4 @@ class ViewController: UIViewController {
 
 }
 
+}

@@ -15,6 +15,8 @@
 		70A420EC242256A8006F5A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A420EA242256A8006F5A0B /* LaunchScreen.storyboard */; };
 		70A420F7242256A8006F5A0B /* Homework_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A420F6242256A8006F5A0B /* Homework_6Tests.swift */; };
 		70A42102242256A9006F5A0B /* Homework_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A42101242256A9006F5A0B /* Homework_6UITests.swift */; };
+		70A421122424FC13006F5A0B /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A421112424FC13006F5A0B /* tabBarViewController.swift */; };
+		70A4215024317523006F5A0B /* votViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A4214F24317523006F5A0B /* votViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		70A420FD242256A9006F5A0B /* Homework 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A42101242256A9006F5A0B /* Homework_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_6UITests.swift; sourceTree = "<group>"; };
 		70A42103242256A9006F5A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A421112424FC13006F5A0B /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		70A4214F24317523006F5A0B /* votViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = votViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		70A420D3242256A0006F5A0B = {
 			isa = PBXGroup;
 			children = (
+				70A4214F24317523006F5A0B /* votViewController.swift */,
 				70A420DE242256A0006F5A0B /* Homework 6 */,
 				70A420F5242256A8006F5A0B /* Homework 6Tests */,
 				70A42100242256A9006F5A0B /* Homework 6UITests */,
@@ -103,6 +108,7 @@
 				70A420E1242256A0006F5A0B /* SceneDelegate.swift */,
 				70A420E3242256A1006F5A0B /* ViewController.swift */,
 				70A420E5242256A1006F5A0B /* Main.storyboard */,
+				70A421112424FC13006F5A0B /* tabBarViewController.swift */,
 				70A420E8242256A8006F5A0B /* Assets.xcassets */,
 				70A420EA242256A8006F5A0B /* LaunchScreen.storyboard */,
 				70A420ED242256A8006F5A0B /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A4215024317523006F5A0B /* votViewController.swift in Sources */,
 				70A420E4242256A1006F5A0B /* ViewController.swift in Sources */,
 				70A420E0242256A0006F5A0B /* AppDelegate.swift in Sources */,
 				70A420E2242256A0006F5A0B /* SceneDelegate.swift in Sources */,
+				70A421122424FC13006F5A0B /* tabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
